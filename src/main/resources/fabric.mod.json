@@ -1,0 +1,29 @@
+{
+	"schemaVersion": 1,
+	"id": "fake-give",
+	"version": "${version}",
+	"name": "fake give/fill",
+	"description": "allows you to make ghost items/blocks (and server type)",
+	"authors": [
+		"LiRocket17"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/fake-give/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"client": [
+			"com.example.fakegive.client.fakeGive",
+			"com.example.fakegive.client.fakeFill"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~26.1.2",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
